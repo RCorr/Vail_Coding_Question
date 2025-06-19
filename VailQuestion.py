@@ -28,7 +28,7 @@ Args:
     param2: An integer value of the number of positions to be rotated
 
 Returns:
-    Returns a new array
+    Returns a rotated array
 
 Raises:
     TypeError: If param1 is not a list of integers
@@ -171,6 +171,4 @@ class TestMethods(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    test = list(range(1, 8))
-    print(rotate_array(test, 2))
     unittest.main()
